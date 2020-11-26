@@ -17,11 +17,9 @@
 .aa-blue{
   color: #0167ff;
 }
+
 .aa-border{
   border-color: #0167ff;
-}
-.aa-no-border{
-  border: none;
 }
 
 .nav-hor > li{
@@ -30,4 +28,41 @@
   font-size: 16px;
   line-height: 80px;
   font-weight: bold;
+}
+.aa-jb-bg{
+  background-image: url(../img/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+}
+.aa-jb-left{
+  color: #fff;
+  font-size: 30px;
+}
+.aa-jb-left h1{
+  font-size: 45px;
+}
+.aa-form{
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.aa-form h2{
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.aa-form p:first-of-type{
+  font-size: 30px;
+  color: #0167ff;
+  font-weight: bold;
+}
+.aa-fwidth{
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+.aa-form p:last-child{
+  font-size: 10px;
+  padding: 50px 0;
 }
