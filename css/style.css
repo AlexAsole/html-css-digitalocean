@@ -34,6 +34,7 @@
   background-size: cover;
   background-position: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .aa-jb-left{
   color: #fff;
@@ -65,4 +66,26 @@
 .aa-form p:last-child{
   font-size: 10px;
   padding: 50px 0;
+}
+.aa-loghi{
+  background-color: #f3f5f9;
+  color: #0167ff;
+}
+.aa-loghi img{
+  vertical-align: middle;
+  padding-bottom: 20px;
+
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:768px) {
+  .aa-loghi img{
+    width: 40%;
+  }
+
+}
+@media screen and (min-width:768px) {
+  .aa-loghi img{
+    width: 15%;
+  }
 }
