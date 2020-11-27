@@ -105,7 +105,7 @@
 .aa-carousel span:hover{
   opacity: 0.5;
 }
-.pallina{
+.aa-pallina{
   width: 10px;
   height: 10px;
   border: 1px solid #0167ff;
@@ -116,10 +116,12 @@
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.pallina:hover{
+.aa-pallina:hover{
   background-color: #0167ff;
 }
-
+.aa-features{
+  margin: 50px 0;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
   .aa-loghi img{
