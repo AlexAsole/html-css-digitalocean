@@ -73,14 +73,30 @@
 }
 .aa-loghi img{
   vertical-align: middle;
-  padding-bottom: 20px;
-
+  max-width: 100%;
 }
+.aa-dtitle{
+  text-align: center;
+  font-weight: bold;
+}
+.aa-dtitle p{
+  margin: 20px;
+}
+.aa-deploy ul {
+  list-style-type: none;
+  border-left: 3px solid #aaa;
+}
+.aa-deploy li{
+  padding-bottom: 25px;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
   .aa-loghi img{
     width: 40%;
+    margin-bottom: 70px;
+    margin-right: 10px;
   }
 
 }
