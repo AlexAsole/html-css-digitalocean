@@ -127,9 +127,10 @@
 }
 .aa-regions{
   background-color: #0025a0;
+  color: #fff;
+  padding: 50px 60px;
 }
 .aa-regions ul{
-  color: #fff;
   border-bottom: 1px solid #fff;
   margin: 20px 0;
 }
@@ -143,6 +144,9 @@
 .aa-regions li:nth-child(3){
   padding-right: 20px;
 }
+.aa-sample{
+  width: 60%;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
   .aa-loghi img{
@@ -153,6 +157,7 @@
   .aa-carousel img{
     width: 80%;
   }
+  
 
 
 }
