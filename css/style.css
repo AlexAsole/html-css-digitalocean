@@ -122,6 +122,27 @@
 .aa-features{
   margin: 50px 0;
 }
+.aa-features [class*="xs"]{
+  margin-bottom: 20px;
+}
+.aa-regions{
+  background-color: #0025a0;
+}
+.aa-regions ul{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin: 20px 0;
+}
+.aa-regions li{
+  display: inline-block;
+}
+.aa-regions li:first-child{
+  width: 100px;
+  text-transform: uppercase;
+}
+.aa-regions li:nth-child(3){
+  padding-right: 20px;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
   .aa-loghi img{
@@ -140,4 +161,6 @@
     width: 13%;
     margin-bottom: 20px;
   }
+
+
 }
