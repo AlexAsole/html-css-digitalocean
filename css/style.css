@@ -147,6 +147,29 @@
 .aa-sample{
   width: 60%;
 }
+.aa-regions:last-of-type button{
+  color: #0167ff;
+}
+footer{
+  background-color: #031c4e;
+  color: #aaa;
+  font-size: 14px;
+  padding: 50px 0;
+}
+footer i{
+  padding-right: 15px;
+}
+footer ul{
+  list-style: none;
+  padding: 20px 0;
+}
+footer li{
+  padding: 5px 0;
+}
+footer li:first-child{
+  color:#fff;
+  font-weight: bold;
+}
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
   .aa-loghi img{
@@ -157,7 +180,7 @@
   .aa-carousel img{
     width: 80%;
   }
-  
+
 
 
 }
