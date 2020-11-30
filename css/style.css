@@ -97,14 +97,36 @@
 .aa-carousel img{
   padding: 20px 0;
 }
-.aa-carousel span{
+.carousel-box{
+  position: relative;
+  height: 100%;
+}
+.aa-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 50px;
-  vertical-align: middle;
-  padding: 0 15px;
+  font-weight: bolder;
 }
-.aa-carousel span:hover{
-  opacity: 0.5;
+.aa-arrow:hover{
+  opacity: .5;
 }
+.aa-arrow-left{
+  left: 30px;
+}
+.aa-arrow-right{
+  right: 30px;
+}
+.carousel-in{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.carousel-in img{
+  width: 200px;
+
+}
+
 .aa-pallina{
   width: 10px;
   height: 10px;
@@ -125,6 +147,7 @@
 .aa-features [class*="xs"]{
   margin-bottom: 20px;
 }
+
 .aa-regions{
   background-color: #0025a0;
   color: #fff;
@@ -178,7 +201,10 @@ footer li:first-child{
     margin-right: 10px;
   }
   .aa-carousel img{
-    width: 80%;
+    width: 70%;
+  }
+  .carousel-in{
+    width: 30%;
   }
 
 
