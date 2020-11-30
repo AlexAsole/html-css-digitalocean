@@ -266,9 +266,9 @@ footer li:first-child{
 
 }
 /* MEDIA QUERY */
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .aa-loghi img{
-    width: 50%;
+    width: 40%;
     margin-bottom: 70px;
     margin-right: 10px;
   }
@@ -282,11 +282,16 @@ footer li:first-child{
 
 
 }
-@media screen and (max-width:992px) {
+@media screen and (min-width:768px) {
   .aa-loghi img{
     width: 13%;
     margin-bottom: 20px;
   }
-
+  .aa-carousel img{
+    width: 70%;
+  }
+  .carousel-in{
+    width: 30%;
+  }
 
 }
